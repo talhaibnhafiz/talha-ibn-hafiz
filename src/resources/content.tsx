@@ -179,10 +179,12 @@ Researched the environmental impact of reducing urban carbon emissions through l
             src: "/images/projects/project-01/cover-01.jpg",
             alt: "Once UI Project",
             width: 16,
-            height: 9,
+           height: 9,
+          },
+        ],
       },
-    ],
-  },
+    ], // <--- ভুল ২: 'experiences' অ্যারে শেষ করার জন্য এটি ( ], ) মিসিং ছিল
+  }, // <--- ভুল ৩: 'work' অবজেক্ট শেষ করার জন্য এটি ( }, ) মিসিং ছিল
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",

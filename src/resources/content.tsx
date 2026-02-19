@@ -167,10 +167,12 @@ const about: About = {
           <>
           Conceptualized a device for collecting black smoke (particulate matter) from vehicle exhausts and urban roadsides to mitigate air pollution.
           </>,
-          <>Developed a chemical processing method to convert captured carbon soot into high-quality usable ink, promoting a circular economy.</>,
+          <>
+            Developed a chemical processing method to convert captured carbon soot into high-quality usable ink, promoting a circular economy.
+          </>,
 <>
 Researched the environmental impact of reducing urban carbon emissions through low-cost filtration and sustainable resource recovery.
-</>     
+</>,     
           ],
          images: [
           {

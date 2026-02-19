@@ -7,7 +7,7 @@ const person: Person = {
   name: `Talha Ibn Hafiz`,
   role: "CS Enthusiast",
   avatar: "/images/7d1d28a3-b269-4562-9f32-356c52708d8c.jpg",
-  email: "example@gmail.com",
+  email: "talhaibnhafiz2007@gmail.com",
   location: "Asia/Dhaka", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bangla"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -25,25 +25,25 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/talhaibnhafiz",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/talhaibnhafiz",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/talha_ibn_hafiz?igsh=dDQzb3FkemxxNTk1",
     essential: false,
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@talha_ibn_hafiz",
     essential: true,
   },
   {

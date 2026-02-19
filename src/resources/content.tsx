@@ -6,10 +6,10 @@ const person: Person = {
   lastName: "Hafiz",
   name: `Talha Ibn Hafiz`,
   role: "CS Enthusiast",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/7d1d28a3-b269-4562-9f32-356c52708d8c.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Dhaka", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Bangla"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {

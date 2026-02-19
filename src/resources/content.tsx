@@ -38,7 +38,7 @@ const social: Social = [
     name: "Instagram",
     icon: "instagram",
     link: "https://www.instagram.com/talha_ibn_hafiz?igsh=dDQzb3FkemxxNTk1",
-    essential: false,
+    essential: true,
   },
   {
     name: "Threads",
@@ -60,15 +60,15 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building bridges between Human & Technology</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Integrated Eco Factory</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Featured Project
         </Text>
       </Row>
     ),
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currenty I am preparing for Higher Secondary Certificate examination. <br /> Also iam workimg with some science projects.
 </>
   ),
 };
@@ -102,9 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I am Talha Ibn Hafiz, a final-year High School student (Science) at Rajshahi Govt. City College. As a passionate CS enthusiast, I am dedicated to exploring the world of technology and engineering while balancing my academic journey in Bangladesh.
       </>
     ),
   },

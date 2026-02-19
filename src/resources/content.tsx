@@ -177,12 +177,7 @@ const about: About = {
         description: (
           <>Bangla (Native), English (Foreign), Arabic (Reading), Hindi,Urdu,Korean (Speaking).</>
         ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
+  
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -206,16 +201,16 @@ const about: About = {
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "C",
+            icon: "c",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Python",
+            icon: "python",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Html",
+            icon: "html",
           },
         ],
         // optional: leave the array empty if you don't want to display images

@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currenty I am preparing for Higher Secondary Certificate examination. <br /> Also iam workimg with some science projects.
+    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currenty I am preparing for Higher Secondary Certificate examination. <br /> Also I'm working with some science projects.
 </>
   ),
 };
@@ -108,20 +108,21 @@ const about: About = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Projects",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Integrated Eco-Friendly Smart Factory Model",
+        timeframe: "WINTER 2026",
+        role: "Project Lead",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Developed an automated industrial system focused on reducing energy waste and monitoring environmental pollutants using Sensor Networks.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+         Integrated real-time resource management through Wireless Communication platforms to ensure sustainable manufacturing processes.
+          </>,
+          <>
+          Designed a centralized control system to optimize factory operations and minimize carbon footprint.
           </>,
         ],
         images: [

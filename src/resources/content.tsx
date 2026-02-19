@@ -136,17 +136,18 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "IoT-based Smart Helmet for Road Safety",
+        timeframe: "WINTER, 2025",
+        role: "Project Lead",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Engineered an intelligent safety prototype using IoT sensors to prevent motorcycle ignition without helmet usage and detect alcohol consumption levels.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Implemented an emergency alert system with GPS tracking for real-time accident location sharing, aligning with V2X (Vehicle-to-Everything) communication standards.
+          </>,
+          <>
+          Focused on enhancing worker and rider safety through Body Area Network (BAN) technology and secure data transmission.
           </>,
         ],
         images: [],
@@ -158,12 +159,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Rajshahi Govt. City College",
+        description: <>Present student at Science Department.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Seroil Govt. High School",
+        description: <>Compeleted 10th Standard here.</>,
       },
     ],
   },
@@ -172,9 +173,9 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Languages",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Bangla (Native), English (Foreign), Arabic (Reading), Hindi,Urdu,Korean (Speaking).</>
         ),
         tags: [
           {
@@ -199,9 +200,9 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Programming",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <> C,  Python(Beginer), Html, SQL, Arduino/ESP32/Microcontroller</>
         ),
         tags: [
           {

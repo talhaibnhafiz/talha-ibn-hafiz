@@ -150,7 +150,34 @@ const about: About = {
           Focused on enhancing worker and rider safety through Body Area Network (BAN) technology and secure data transmission.
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+      },
+    ],
+  },
+       {
+        company: "Carbon Capture & Ink Production System",
+        timeframe: "WINTER, 2024",
+        role: "Project Lead",
+        achievements: [
+          <>
+          Conceptualized a device for collecting black smoke (particulate matter) from vehicle exhausts and urban roadsides to mitigate air pollution.
+          </>,
+          <>Developed a chemical processing method to convert captured carbon soot into high-quality usable ink, promoting a circular economy.</>,
+<>
+Researched the environmental impact of reducing urban carbon emissions through low-cost filtration and sustainable resource recovery.
+</>     
+          ],
+         images: [
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
       },
     ],
   },

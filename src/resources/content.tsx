@@ -183,8 +183,8 @@ Researched the environmental impact of reducing urban carbon emissions through l
           },
         ],
       },
-    ], // <--- ভুল ২: 'experiences' অ্যারে শেষ করার জন্য এটি ( ], ) মিসিং ছিল
-  }, // <--- ভুল ৩: 'work' অবজেক্ট শেষ করার জন্য এটি ( }, ) মিসিং ছিল
+    ], //  
+  }, //
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
@@ -320,44 +320,69 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
+      src: "/images/1.gallery-4.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/2.gallery-5.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/3.gallery-6.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery-3.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery-9.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
       src: "/images/gallery-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery-12.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery-11.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery-13.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery-14.jpg",
       alt: "image",
-      orientation: "vertical",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery-15.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery-16.jpg",
+      alt: "image",
+      orientation: "horizontal",
     },
   ],
 };

@@ -291,124 +291,166 @@ export default function About() {
             </>
           )}
 
-         {about.technical.display && (
-  <>
-    <Heading
-      as="h2"
-      id={about.technical.title}
-      variant="display-strong-s"
-      marginBottom="40"
-    >
-      {about.technical.title}
-    </Heading>
-    <Column fillWidth gap="l">
-      {about.technical.skills.map((skill, index) => (
-        <Column key={`technical-${index}`} fillWidth gap="4">
-          <Text id={skill.title} variant="heading-strong-l">
-            {skill.title}
-          </Text>
-          <Text variant="body-default-m" onBackground="neutral-weak">
-            {skill.description}
-          </Text>
-          {skill.tags && skill.tags.length > 0 && (
-            <Row wrap gap="8" paddingTop="8">
-              {skill.tags.map((tag, tagIndex) => (
-                <Tag key={`tag-${index}-${tagIndex}`} size="l" prefixIcon={tag.icon}>
-                  {tag.name}
-                </Tag>
-              ))}
-            </Row>
-          )}
-          {skill.images && skill.images.length > 0 && (
-            <Row fillWidth paddingTop="m" gap="12" wrap>
-              {skill.images.map((image, imgIndex) => (
-                <Row
-                  key={`img-${index}-${imgIndex}`}
-                  border="neutral-medium"
-                  radius="m"
-                  minWidth={image.width}
-                  height={image.height}
-                >
-                  <Media
-                    enlarge
+{/* ------------------ TECHNICAL ------------------ */}
+{about?.technical?.display &&
+  about?.technical?.skills &&
+  about.technical.skills.length > 0 && (
+    <>
+      <Heading
+        as="h2"
+        id={about.technical.title}
+        variant="display-strong-s"
+        marginBottom="40"
+      >
+        {about.technical.title}
+      </Heading>
+
+      <Column fillWidth gap="l">
+        {about.technical.skills.map((skill, index) => (
+          <Column key={`technical-${index}`} fillWidth gap="4">
+            <Text id={skill?.title} variant="heading-strong-l">
+              {skill?.title}
+            </Text>
+
+            {skill?.description && (
+              <Text variant="body-default-m" onBackground="neutral-weak">
+                {skill.description}
+              </Text>
+            )}
+
+            {/* TAGS */}
+            {skill?.tags && skill.tags.length > 0 && (
+              <Row wrap gap="8" paddingTop="8">
+                {skill.tags.map((tag, tagIndex) => (
+                  <Tag
+                    key={`tag-${index}-${tagIndex}`}
+                    size="l"
+                    prefixIcon={tag?.icon}
+                  >
+                    {tag?.name}
+                  </Tag>
+                ))}
+              </Row>
+            )}
+
+            {/* IMAGES */}
+            {skill?.images && skill.images.length > 0 && (
+              <Row fillWidth paddingTop="m" gap="12" wrap>
+                {skill.images.map((image, imgIndex) => (
+                  <Row
+                    key={`img-${index}-${imgIndex}`}
+                    border="neutral-medium"
                     radius="m"
-                    sizes={image.width.toString()}
-                    alt={image.alt}
-                    src={image.src}
-                  />
-                </Row>
-              ))}
-            </Row>
-          )}
-        </Column>
-      ))}
-    </Column>
-  </>
+                    minWidth={image?.width}
+                    height={image?.height}
+                  >
+                    <Media
+                      enlarge
+                      radius="m"
+                      sizes={image?.width?.toString() || "100"}
+                      alt={image?.alt || "skill image"}
+                      src={image?.src}
+                    />
+                  </Row>
+                ))}
+              </Row>
+            )}
+          </Column>
+        ))}
+      </Column>
+    </>
 )}
+
 
 {/* ------------------ CERTIFICATIONS ------------------ */}
-{about.certifications?.display && (
-  <>
-    <Heading
-      as="h2"
-      id={about.certifications.title}
-      variant="display-strong-s"
-      marginBottom="m"
-    >
-      {about.certifications.title}
-    </Heading>
-    <Column fillWidth gap="l" marginBottom="40">
-      {about.certifications.items.map((cert, index) => (
-        <Column key={`cert-${index}`} fillWidth gap="4">
-          <Row fillWidth horizontal="between">
-            <Text id={cert.title} variant="heading-strong-l">
-              {cert.title}
-            </Text>
-            <Text variant="heading-default-xs" onBackground="neutral-weak">
-              {cert.timeframe}
-            </Text>
-          </Row>
-          <Text variant="body-default-s" onBackground="brand-weak">
-            {cert.issuer}
-          </Text>
-          {cert.description && (
-            <Text variant="body-default-m" onBackground="neutral-weak">
-              {cert.description}
-            </Text>
-          )}
-        </Column>
-      ))}
-    </Column>
-  </>
+{about?.certifications?.display &&
+  about?.certifications?.items &&
+  about.certifications.items.length > 0 && (
+    <>
+      <Heading
+        as="h2"
+        id={about.certifications.title}
+        variant="display-strong-s"
+        marginBottom="m"
+      >
+        {about.certifications.title}
+      </Heading>
+
+      <Column fillWidth gap="l" marginBottom="40">
+        {about.certifications.items.map((cert, index) => (
+          <Column key={`cert-${index}`} fillWidth gap="4">
+            <Row fillWidth horizontal="between">
+              <Text id={cert?.title} variant="heading-strong-l">
+                {cert?.title}
+              </Text>
+
+              {cert?.timeframe && (
+                <Text
+                  variant="heading-default-xs"
+                  onBackground="neutral-weak"
+                >
+                  {cert.timeframe}
+                </Text>
+              )}
+            </Row>
+
+            {cert?.issuer && (
+              <Text variant="body-default-s" onBackground="brand-weak">
+                {cert.issuer}
+              </Text>
+            )}
+
+            {cert?.description && (
+              <Text variant="body-default-m" onBackground="neutral-weak">
+                {cert.description}
+              </Text>
+            )}
+          </Column>
+        ))}
+      </Column>
+    </>
 )}
 
+
 {/* ------------------ AWARDS ------------------ */}
-{about.awards?.display && (
-  <>
-    <Heading
-      as="h2"
-      id={about.awards.title}
-      variant="display-strong-s"
-      marginBottom="m"
-    >
-      {about.awards.title}
-    </Heading>
-    <Column fillWidth gap="l" marginBottom="40">
-      {about.awards.items.map((award, index) => (
-        <Column key={`award-${index}`} fillWidth gap="4">
-          <Row fillWidth horizontal="between">
-            <Text id={award.title} variant="heading-strong-l">
-              {award.title}
-            </Text>
-            <Text variant="heading-default-xs" onBackground="neutral-weak">
-              {award.timeframe}
-            </Text>
-          </Row>
-          <Text variant="body-default-s" onBackground="brand-weak">
-            {award.issuer}
-          </Text>
-        </Column>
-      ))}
-    </Column>
-  </>
+{about?.awards?.display &&
+  about?.awards?.items &&
+  about.awards.items.length > 0 && (
+    <>
+      <Heading
+        as="h2"
+        id={about.awards.title}
+        variant="display-strong-s"
+        marginBottom="m"
+      >
+        {about.awards.title}
+      </Heading>
+
+      <Column fillWidth gap="l" marginBottom="40">
+        {about.awards.items.map((award, index) => (
+          <Column key={`award-${index}`} fillWidth gap="4">
+            <Row fillWidth horizontal="between">
+              <Text id={award?.title} variant="heading-strong-l">
+                {award?.title}
+              </Text>
+
+              {award?.timeframe && (
+                <Text
+                  variant="heading-default-xs"
+                  onBackground="neutral-weak"
+                >
+                  {award.timeframe}
+                </Text>
+              )}
+            </Row>
+
+            {award?.issuer && (
+              <Text variant="body-default-s" onBackground="brand-weak">
+                {award.issuer}
+              </Text>
+            )}
+          </Column>
+        ))}
+      </Column>
+    </>
 )}

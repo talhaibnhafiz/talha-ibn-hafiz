@@ -128,7 +128,7 @@ const about: About = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            avater: "/images/eco.jpg",
+            src: "/images/eco.jpg",
             alt: "Integrated Eco Factory",
             width: 16,
             height: 9,

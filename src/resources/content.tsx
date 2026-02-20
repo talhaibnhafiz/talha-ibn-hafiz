@@ -257,28 +257,7 @@ Researched the environmental impact of reducing urban carbon emissions through l
     ],
   },
 };
-awards: {
-    display: true,
-    title: "Honors and Awards",
-    institutions: [
-      {
-        name: "TOP 50 [NATIONAL], Youth Idea Contest",
-        description: <>Jogonnath University, Dhaka — 2026</>,
-      },
-      {
-        name: "2nd Place, [The Nerds] Rajshahi College National Science Fest",
-        description: <>Rajshahi College, Rajshahi — 2025</>,
-      },
-      {
-        name: "5th Place, ICT Olympiad (Regional)",
-        description: <>Rajshahi, Bangladesh — 2024</>,
-      },
-      {
-        name: "10th Place, English Quiz (Regional)",
-        description: <>Rajshahi, Bangladesh — 2023</>,
-      },
-    ],
-  },
+
 const blog: Blog = {
   path: "/blog",
   label: "Blog",

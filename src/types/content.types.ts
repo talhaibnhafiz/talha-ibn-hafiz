@@ -209,6 +209,26 @@ export interface About extends BasePageConfig {
       }>;
     }>;
   };
+certifications?: {
+  display: boolean;
+  title: string;
+  items: {
+    title: string;
+    issuer: string;
+    timeframe: string;
+    description?: React.ReactNode;
+  }[];
+};
+
+awards?: {
+  display: boolean;
+  title: string;
+  items: {
+    title: string;
+    issuer: string;
+    timeframe: string;
+  }[];
+};
 }
 
 /**

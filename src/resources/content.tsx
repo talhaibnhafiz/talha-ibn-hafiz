@@ -152,7 +152,7 @@ const about: About = {
         ],
         images: [
           {
-            src: "/images/helmet.jpg",
+            src: "/images/helmet.png",
             alt: "IoT-based Smart Helmet for Road Safety",
             width: 16,
             height: 9,
@@ -320,7 +320,7 @@ const gallery: Gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },

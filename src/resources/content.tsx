@@ -129,7 +129,7 @@ const about: About = {
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/eco.jpg",
-            alt: "Once UI Project",
+            alt: "Integrated Eco Factory",
             width: 16,
             height: 9,
           },
@@ -152,8 +152,8 @@ const about: About = {
         ],
         images: [
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/helmet.jpg",
+            alt: "IoT-based Smart Helmet for Road Safety",
             width: 16,
             height: 9,
       },
@@ -176,8 +176,8 @@ Researched the environmental impact of reducing urban carbon emissions through l
           ],
          images: [
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/carbon.jpg",
+            alt: "Carbon Capture & Ink Production System",
             width: 16,
            height: 9,
           },

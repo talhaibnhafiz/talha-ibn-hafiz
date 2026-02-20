@@ -199,65 +199,42 @@ Researched the environmental impact of reducing urban carbon emissions through l
       },
     ],
   },
-  technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
-    skills: [
-      {
-        title: "Languages",
-        description: (
-          <>Bangla (Native), English (Foreign), Arabic (Reading), Hindi,Urdu,Korean (Speaking).</>
-        ),
-  
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Programming",
-        description: (
-          <> C,  Python(Beginer), Html, SQL, Arduino/ESP32/Microcontroller</>
-        ),
-        tags: [
-          {
-            name: "C",
-            icon: "c",
-          },
-          {
-            name: "Python",
-            icon: "python",
-          },
-          {
-            name: "Html",
-            icon: "html",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
-  },
-};
-
+technical: {
+  display: true,
+  title: "Technical Skills",
+  skills: [
+    {
+      title: "Languages",
+      description: (
+        <>
+          Bangla (Native), English (Foreign), Arabic (Reading), Hindi, Urdu, Korean (Speaking).
+        </>
+      ),
+    },
+    {
+      title: "Programming",
+      description: (
+        <>
+          C, Python (Beginner), HTML, SQL, Arduino/ESP32/Microcontroller
+        </>
+      ),
+      tags: [
+        {
+          name: "C",
+          icon: "c",
+        },
+        {
+          name: "Python",
+          icon: "python",
+        },
+        {
+          name: "Html",
+          icon: "html",
+        },
+      ],
+    },
+  ],
+},
 
   certifications: {
     display: true,

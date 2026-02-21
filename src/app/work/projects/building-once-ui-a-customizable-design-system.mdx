@@ -1,45 +1,39 @@
 ---
-title: "Building Once UI, a Customizable Design System"
-publishedAt: "2024-04-08"
-summary: "Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration."
+title: "Smart IoT Helmet: Real-time Accident Detection & Safety System"
+publishedAt: "2026-02-21"
+summary: "An IoT-enabled helmet designed to detect accidents, monitor alcohol consumption, and send automatic SOS alerts with GPS location."
 images:
-  - "/images/projects/project-01/cover-01.jpg"
-  - "/images/projects/project-01/cover-02.jpg"
-  - "/images/projects/project-01/cover-03.jpg"
-  - "/images/projects/project-01/cover-04.jpg"
+  - "/images/7d1d28a3-b269-4562-9f32-356c52708d8c.jpg"
 team:
-  - name: "Selene Yu"
-    role: "Software Engineer"
-    avatar: "/images/avatar.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
-  - name: "Lorant One"
-    role: "Design Engineer"
-    avatar: "/images/projects/project-01/avatar-01.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+  - name: "Md. Talha Ibn Hafiz"
+    role: "IoT Developer & Programmer"
+    avatar: "/images/helmet.jpg"
+    linkedIn: "https://linkedin.com/in/talhaibnhafiz"
+link: "https://github.com/talhaibnhafiz"
 ---
 
 ## Overview
 
-Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration.
+The **Smart IoT Helmet** project was born out of a need to reduce road accident fatalities by ensuring faster emergency response. It is a wearable safety device that monitors the rider's condition and the helmet's status in real-time. By integrating various sensors with an ESP32 microcontroller, the helmet can automatically detect a crash and notify emergency contacts with the exact location.
 
 ## Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- **Accident Detection**: Uses an **MPU6050 (Accelerometer & Gyroscope)** to detect sudden impacts or falls, triggering an immediate emergency protocol.
+- **Drunk Driving Prevention**: Integrated **MQ-3 Alcohol Sensor** prevents the bike from starting if the rider is intoxicated (via ignition interlock simulation).
+- **Automatic SOS Alerts**: In case of an accident, a **GSM/GPS module** sends a distress SMS containing the Google Maps link of the accident site to predefined numbers.
+- **Smart Cloud Integration**: All data is synced to a mobile app using **Blynk or Firebase**, allowing family members to track the rider's safety status.
 
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
-- **Figma**: For creating and managing design assets and prototypes.
-- **Styled-Components**: For styling React components with a modular, themable approach.
-- **Storybook**: For building an interactive, documented component library.
+- **Microcontroller**: ESP32 / Arduino Nano.
+- **Sensors**: MPU6050 (Motion), MQ-3 (Alcohol), GPS Neo-6M (Location).
+- **Communication**: GSM SIM800L for SMS and Cellular data.
+- **Software**: C++, Arduino IDE, Blynk Cloud IoT platform.
 
 ## Challenges and Learnings
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+One of the main challenges was filtering out false alarms (e.g., when the helmet is simply dropped). I solved this by implementing a threshold-based algorithm that requires both high G-force and a specific tilt angle to trigger an SOS. This project deepened my understanding of real-time data processing and the reliability of IoT devices in critical safety applications.
 
 ## Outcome
 
-The design system is now actively used across multiple projects, leading to faster development cycles, fewer design inconsistencies, and improved collaboration between design and development teams. It has become a foundation for scaling our products efficiently while ensuring a cohesive user experience.
+The prototype successfully reduced the time to alert emergency services to less than 30 seconds after an impact. It serves as a proof of concept for how affordable IoT technology can be integrated into standard safety gear to save lives.

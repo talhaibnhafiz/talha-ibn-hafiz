@@ -1,7 +1,7 @@
 ---
 title: "Updating the content of Magic Portfolio"
 summary: "Personalize the portfolio template with your own content."
-publishedAt: "2025-04-18"
+publishedAt: "2026-02-21"
 tag: "Magic Portfolio"
 ---
 
@@ -47,15 +47,15 @@ Your personal details are used across the whole app to render personalized headi
   {
     code:
 `const person = {
-    firstName: "Selene",
-    lastName: "Yu",
+    firstName: "Talha",
+    lastName: "Ibn Hafiz",
     get name() {
       return "...";
     },
-    role: "Design Engineer",
+    role: "CS Enthusiast",
     avatar: "/images/avatar.jpg",
-    location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+    location: "Asia/Dhaka", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ["English", "Bengali"], // optional: Leave the array empty if you don't want to display languages
 };`,
     language: "tsx",
     label: "src/app/resources/content.js"
@@ -75,12 +75,12 @@ Social links are rendered on the `/about` page and in the footer based on the ar
     {
       name: "GitHub",
       icon: "github",
-      link: "https://github.com/once-ui-system/nextjs-starter",
+      link: "https://github.com/talhaibnhafiz",
     },
     {
       name: "Email",
       icon: "email",
-      link: "mailto:lorant@once-ui.com",
+      link: "mailto:your.email@example.com",
     },
 ];`,
     language: "tsx",
@@ -99,12 +99,12 @@ Each page have it's own object that manages the personalized content, such as he
     code:
 `const home = {
     label: "Home",
-    title: "Selene Yu's Portfolio",
-    description: "Portfolio website showcasing my work as a Design Engineer",
-    headline: <>Design engineer and builder</>,
+    title: "Talha Ibn Hafiz's Portfolio",
+    description: "Portfolio website showcasing my work as a High School Student",
+    headline: <>CS Enthusiast</>,
     subline: (
       <>
-        I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+        I'm Talha, a High School Student crafting intuitive
         <br /> user experiences. After hours, I build my own projects.
       </>
     ),

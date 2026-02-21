@@ -392,4 +392,11 @@ const gallery: Gallery = {
   ],
 };
 
+const footer = {
+    notice: (
+        <>
+            © {new Date().getFullYear()} <InlineCode>Talha Ibn Hafiz</InlineCode>. All rights reserved.
+        </>
+    ),
+};
 export { person, social, newsletter, home, about, blog, work, gallery };

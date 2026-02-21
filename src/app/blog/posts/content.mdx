@@ -1,6 +1,6 @@
 ---
 title: "Updating the content of Magic Portfolio"
-summary: "Personalize the portfolio template with your own content."
+summary: "Learn how to personalize your portfolio with research-focused content and modern engineering details."
 publishedAt: "2026-02-21"
 tag: "Magic Portfolio"
 ---
@@ -11,7 +11,7 @@ Replace the `public/images/avatar.jpg` file with your own avatar image. It is us
 
 ## Favicon
 
-Replace the `src/app/favicon.ico` file with your own favicon.
+Replace the `src/app/favicon.ico` file with your own favicon. For your EcoFactory theme, a green-themed icon would look great.
 
 ## Content
 
@@ -50,12 +50,12 @@ Your personal details are used across the whole app to render personalized headi
     firstName: "Talha",
     lastName: "Ibn Hafiz",
     get name() {
-      return "...";
+      return \`\${this.firstName} \${this.lastName}\`;
     },
-    role: "CS Enthusiast",
+    role: "CS Enthusiast & Sustainability Researcher",
     avatar: "/images/avatar.jpg",
-    location: "Asia/Dhaka", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ["English", "Bengali"], // optional: Leave the array empty if you don't want to display languages
+    location: "Asia/Dhaka", // Bangladesh Standard Time
+    languages: ["English", "Bengali"],
 };`,
     language: "tsx",
     label: "src/app/resources/content.js"
@@ -64,7 +64,7 @@ Your personal details are used across the whole app to render personalized headi
 
 ### Social links
 
-Social links are rendered on the `/about` page and in the footer based on the array configured in the `social` object. You can set custom icons to each, but don't forget to import them in `src/once-ui/icons.ts`. Read the Once UI documentation](https://once-ui.com/docs/icons) for more information.
+Social links are rendered on the `/about` page and in the footer based on the array configured in the `social` object. You can set custom icons to each, but don't forget to import them in `src/once-ui/icons.ts`.
 
 <CodeBlock
     marginBottom="16"
@@ -80,7 +80,7 @@ Social links are rendered on the `/about` page and in the footer based on the ar
     {
       name: "Email",
       icon: "email",
-      link: "mailto:your.email@example.com",
+      link: "mailto:talha@example.com", // Replace with your actual email
     },
 ];`,
     language: "tsx",
@@ -100,12 +100,13 @@ Each page have it's own object that manages the personalized content, such as he
 `const home = {
     label: "Home",
     title: "Talha Ibn Hafiz's Portfolio",
-    description: "Portfolio website showcasing my work as a High School Student",
-    headline: <>CS Enthusiast</>,
+    description: "Software enthusiast specializing in Sustainable Manufacturing and Industry 5.0",
+    headline: <>Building the future with <InlineCode>EcoFactory</InlineCode></>,
     subline: (
       <>
-        I'm Talha, a High School Student crafting intuitive
-        <br /> user experiences. After hours, I build my own projects.
+        I'm Talha, a CS enthusiast and researcher focusing on 
+        sustainable manufacturing. I bridge the gap between 
+        <br /> technology and environmental efficiency through Industry 5.0.
       </>
     ),
 };`,
@@ -114,4 +115,4 @@ Each page have it's own object that manages the personalized content, such as he
   }
 ]} />
 
-The `label` property is used in the header navigation. The `title` property is used for the page title and the `description` property is used for the page description. They are also used in meta- and open graph tags.
+The `label` property is used in the header navigation. The `title` property is used for the page title and the `description` property is used for the page description.

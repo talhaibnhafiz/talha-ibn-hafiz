@@ -235,10 +235,34 @@ technical: {
           icon: "html",
         },
       ],
+      // 🔥 NEW SECTION ADD HERE
+    {
+      title: "Certifications",
+      description: (
+        <>
+          • Supervised ML – DeepLearning.AI (2026) <br/>
+          • GitHub Copilot Prompt Engineering (2026) <br/>
+          • AI/ML Career Jumpstart (2025) <br/>
+          • First Step Korean – Yonsei University (2026)
+        </>
+      ),
     },
+
+    {
+      title: "Honors & Awards",
+      description: (
+        <>
+          • Top 50 – National Youth Idea Contest (2026) <br/>
+          • 2nd Place – Rajshahi College Science Fest (2025) <br/>
+          • 5th Place – ICT Olympiad (2024) <br/>
+          • 10th Place – English Quiz (2023)
+        </>
+      ),
+    },
+
   ],
 },
-
+  
 certifications: {
   display: true,
   title: "Certifications",

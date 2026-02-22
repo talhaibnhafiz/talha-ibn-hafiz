@@ -239,63 +239,60 @@ technical: {
   ],
 },
 
-  certifications: {
-    display: true,
-    title: "Certifications",
-    items: [
-      {
-        title: "Supervised ML: Regression and Classification",
-        issuer: "DeepLearning.AI",
-        timeframe: "SPRING, 2026",
-        description: <>Machine learning course focused on regression & classification using Python.</>,
-      },
-      {
-        title: "Introduction to Prompt Engineering with GitHub Copilot",
-        issuer: "GitHub",
-        timeframe: "WINTER, 2026",
-      },
-      {
-        title: "AI/ML Engineering Career Jumpstart",
-        issuer: "Professional Development Program",
-        timeframe: "FALL, 2025",
-      },
-      {
-        title: "First Step Korean",
-        issuer: "Yonsei University (Online)",
-        timeframe: "SPRING, 2026",
-      },
-    ],
-  },
-
-  awards: {
-    display: true,
-    title: "Honors & Awards",
-    items: [
-      {
-        title: "TOP 50 – National Youth Idea Contest",
-        issuer: "Jagannath University, Dhaka",
-        timeframe: "2026",
-      },
-      {
-        title: "2nd Place – Rajshahi College National Science Fest",
-        issuer: "Rajshahi College",
-        timeframe: "2025",
-      },
-      {
-        title: "5th Place – ICT Olympiad (Regional)",
-        issuer: "Rajshahi, Bangladesh",
-        timeframe: "2024",
-      },
-      {
-        title: "10th Place – English Quiz (Regional)",
-        issuer: "Rajshahi, Bangladesh",
-        timeframe: "2023",
-      },
-    ],
-  },
-
+certifications: {
+  display: true,
+  title: "Certifications",
+  items: [
+    {
+      title: "Supervised ML: Regression and Classification",
+      issuer: "DeepLearning.AI",
+      timeframe: "Spring, 2026",
+      description: <>ML, Python</>,
+    },
+    {
+      title: "Introduction to Prompt Engineering with GitHub Copilot",
+      issuer: "GitHub",
+      timeframe: "Winter, 2026",
+    },
+    {
+      title: "AI/ML Engineering Career Jumpstart",
+      issuer: "Professional Development Program",
+      timeframe: "Fall, 2025",
+    },
+    {
+      title: "First Step Korean",
+      issuer: "Yonsei University (Online)",
+      timeframe: "Spring, 2026",
+    },
+  ],
+},
+ awards: {
+  display: true,
+  title: "Honors & Awards",
+  items: [
+    {
+      title: "Top 50 – National Youth Idea Contest",
+      issuer: "Jagannath University, Dhaka",
+      timeframe: "2026",
+    },
+    {
+      title: "2nd Place – Rajshahi College National Science Fest",
+      issuer: "Rajshahi College, Rajshahi",
+      timeframe: "2025",
+    },
+    {
+      title: "5th Place – ICT Olympiad (Regional)",
+      issuer: "Rajshahi, Bangladesh",
+      timeframe: "2024",
+    },
+    {
+      title: "10th Place – English Quiz (Regional)",
+      issuer: "Rajshahi, Bangladesh",
+      timeframe: "2023",
+    },
+  ],
+},
 };
-
 const blog: Blog = {
   path: "/blog",
   label: "Blog",

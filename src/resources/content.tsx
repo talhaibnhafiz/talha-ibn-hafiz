@@ -190,14 +190,14 @@ Researched the environmental impact of reducing urban carbon emissions through l
     title: "Studies",
     institutions: [
       {
-        name: "Rajshahi Govt. City College",
+        name: "Rajshahi Govt. City College [Aug,2024-July,2026]",
         description: <>HSC: GPA 0.00/0.00
-          Present student at Science Department.</>,
+          [Present student at Science Department].</>,
       },
       {
-        name: "Seroil Govt. High School",
+        name: "Seroil Govt. High School [Jan,2016-May,2024]",
         description:<> SSC: GPA 5.00/5.00
-          Compeleted 10th Standard here.
+          [Compeleted 10th Standard here.]
          </>,
       },
     ],

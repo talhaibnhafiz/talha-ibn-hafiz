@@ -185,13 +185,13 @@ Researched the environmental impact of reducing urban carbon emissions through l
       },
       {
         company: "Fire Fighter Robot",
-        timeframe: "WINTER, 2024",
+        timeframe: "WINTER, 2023",
         role: "Project Lead",
         achievements: [
           <>
-            Designed and developed an autonomous robot capable of detecting and extinguishing fires in real-time.
+            Designed and developed an autonomous robot capable of detecting and extinguishing fires in real-time.</>,
           <>
-            Integrated flame sensors and water pump systems to enhance emergency response efficiency.
+            Integrated flame sensors and water pump systems to enhance emergency response efficiency.</>,
           <>
           Focused on obstacle avoidance and navigation in hazardous environments to ensure safety.
           </>,

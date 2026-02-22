@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currenty I am preparing for Higher Secondary Certificate examination. <br /> Also I'm working with some science projects.
+    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currently I am preparing for Higher Secondary Certificate examination. <br /> Also I'm working with some science projects.
 </>
   ),
 };

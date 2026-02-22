@@ -235,6 +235,7 @@ technical: {
           icon: "html",
         },
       ],
+      },
       // 🔥 NEW SECTION ADD HERE
     {
       title: "Certifications",

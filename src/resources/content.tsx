@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Md.Talha Ibn",
   lastName: "Hafiz",
   name: `Talha Ibn Hafiz`,
-  role: "CS Enthusiast",
+  role: "Engineering Enthusiast",
   avatar: "/images/7d1d28a3-b269-4562-9f32-356c52708d8c.jpg",
   email: "talhaibnhafiz2007@gmail.com",
   location: "Asia/Dhaka", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -196,6 +196,7 @@ Researched the environmental impact of reducing urban carbon emissions through l
           Focused on obstacle avoidance and navigation in hazardous environments to ensure safety.
           </>,
         ],
+      },
     ], //  
   }, //
   studies: {

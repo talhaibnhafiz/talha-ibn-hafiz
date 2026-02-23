@@ -1,46 +1,10 @@
 ---
-title: "SEO settings for Magic Portfolio"
-summary: "Manage your Magic Portfolio's SEO settings."
+title: "Aerospace Engineering: Reusable Space Systems"
+summary: "The shift toward reusable rocket technology to drastically lower the cost of space travel and enable long-term orbital missions."
 publishedAt: "2025-04-14"
-tag: "Magic Portfolio"
+tag: "Blog"
 ---
 
-## Meta tags
+## Main Post
 
-Magic Portfolio automatically generates meta- and open graph tags for your pages based on the `content.js` file.
-
-## Schema
-
-Magic Portfolio automatically generates schema tags for your pages based on the `content.js` file.
-
-## Open Graph image
-
-Social sharing images (open-graph and twitter) are automatically generated with `next/og`.
-
-<Feedback
-    icon
-    marginBottom="16"
-    description={<>
-        Make sure you have updated the <InlineCode>content.js</InlineCode> file with your own information and the <InlineCode>baseURL</InlineCode> variable in the <InlineCode>config.js</InlineCode> file.
-    </>}
-/>
-
-<CodeBlock
-    marginBottom="16"
-    highlight="4"
-    codes={[
-      {
-        code:
-`export async function generateMetadata() {
-  const title = home.title;
-  const description = home.description;
-  const ogImage = \`https://\/api/og/generate?title=\${encodeURIComponent(title)}\`;
-   ...
-};`,
-        language: "tsx",
-        label: "src/app/{page}/page.tsx"
-      }
-    ]}
-/>
-
-The above declaration generates the social image with the title of the page. You can use a static image by replacing the `ogImage` value with a path to an image in the `public` directory.
+The era of "disposable" rockets is over. Companies like SpaceX and Blue Origin have mastered Propulsive Landing, where the first stage of a rocket returns to Earth and lands vertically.The Math of Success: Reusing a rocket reduces the cost of a launch from $\$200$ million to under $\$20$ million.Orbital Economy: This price drop is fueling the "New Space" race, enabling mega-constellations of satellites for global high-speed internet and the early stages of asteroid mining.

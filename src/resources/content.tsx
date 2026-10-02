@@ -4,7 +4,7 @@ import { Line, Row, Text } from "@once-ui-system/core";
 const person: Person = {
   firstName: "Md.Talha Ibn",
   lastName: "Hafiz",
-  name: `Talha Ibn Hafiz`,
+  name: `MD Talha Ibn Hafiz`,
   role: "Engineering Enthusiast",
   avatar: "/images/7d1d28a3-b269-4562-9f32-356c52708d8c.jpg",
   email: "talhaibnhafiz2007@gmail.com",
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currently I am preparing for Higher Secondary Certificate examination. <br /> Also I'm working with some science projects.
+    I'm Talha, an intermediate student at <Text as="span" size="xl" weight="strong">Rajshahi Govt. City College</Text>. Currently I am expected graduate student of 12th class. <br /> Also I'm working with some science projects.
 </>
   ),
 };
@@ -102,7 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I am Talha Ibn Hafiz, a final-year High School student (Science) at Rajshahi Govt. City College. As a passionate CS enthusiast, I am dedicated to exploring the world of technology and engineering while balancing my academic journey in Bangladesh.
+        I am Talha Ibn Hafiz, a expected graduate High School student (Science) at Rajshahi Govt. City College. As a passionate engineering enthusiast, I am dedicated to exploring the world of technology and engineering while balancing my academic journey in Bangladesh.
       </>
     ),
   },

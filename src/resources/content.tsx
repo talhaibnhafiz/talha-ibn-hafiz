@@ -2,9 +2,9 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Md.Talha Ibn",
+  firstName: "Md Talha Ibn",
   lastName: "Hafiz",
-  name: `MD Talha Ibn Hafiz`,
+  name: `MD TALHA IBN HAFIZ`,
   role: "Engineering Enthusiast",
   avatar: "/images/7d1d28a3-b269-4562-9f32-356c52708d8c.jpg",
   email: "talhaibnhafiz2007@gmail.com",
@@ -13,7 +13,7 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -65,7 +65,7 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Smart IoT Helmet</strong>{" "}
+        <strong className="ml-4">Integrated Eco-Friendly Smart Factory Model</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured Project
@@ -102,7 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        I am Talha Ibn Hafiz, a expected graduate High School student (Science) at Rajshahi Govt. City College. As a passionate engineering enthusiast, I am dedicated to exploring the world of technology and engineering while balancing my academic journey in Bangladesh.
+        I am Talha Ibn Hafiz, an expected graduate High School student (Science) at Rajshahi Govt. City College. As a passionate engineering enthusiast, I am dedicated to exploring the world of technology and engineering while balancing my academic journey in Bangladesh.
       </>
     ),
   },
@@ -136,30 +136,7 @@ const about: About = {
         ],
       },
       {
-        company: "IoT-based Smart Helmet for Road Safety",
-        timeframe: "WINTER, 2025",
-        role: "Project Lead",
-        achievements: [
-          <>
-            Engineered an intelligent safety prototype using IoT sensors to prevent motorcycle ignition without helmet usage and detect alcohol consumption levels.
-          </>,
-          <>
-            Implemented an emergency alert system with GPS tracking for real-time accident location sharing, aligning with V2X (Vehicle-to-Everything) communication standards.
-          </>,
-          <>
-          Focused on enhancing worker and rider safety through Body Area Network (BAN) technology and secure data transmission.
-          </>,
-        ],
-        images: [
-          {
-            src: "/images/helmet.png",
-            alt: "IoT-based Smart Helmet for Road Safety",
-            width: 16,
-            height: 9,
-      },
-    ],
-  },
-       {
+      {
         company: "Carbon Capture & Ink Production System",
         timeframe: "WINTER, 2024",
         role: "Project Lead",
@@ -204,9 +181,9 @@ Researched the environmental impact of reducing urban carbon emissions through l
     title: "Studies",
     institutions: [
       {
-        name: "Rajshahi Govt. City College [Aug,2024-July,2026]",
+        name: "Rajshahi Govt. City College [Aug,2024-November,2026]",
         description: <>HSC: GPA 0.00/0.00
-          [Present student at Science Department].</>,
+          [Expected graduate student at Science Department].</>,
       },
       {
         name: "Seroil Govt. High School [Jan,2016-May,2024]",
@@ -224,7 +201,7 @@ technical: {
       title: "Languages",
       description: (
         <>
-          Bangla (Native), English (Foreign), Arabic (Reading), Hindi, Urdu, Korean (Speaking).
+          Bangla (Native), English (Foreign), Arabic (Reading), Hindi, Urdu (Speaking).
         </>
       ),
     },
@@ -257,8 +234,7 @@ technical: {
         <>
           • Supervised ML – DeepLearning.AI (2026) <br/>
           • GitHub Copilot Prompt Engineering (2026) <br/>
-          • AI/ML Career Jumpstart (2025) <br/>
-          • First Step Korean – Yonsei University (2026)
+          • AI/ML Career Jumpstart (2025)
         </>
       ),
     },
@@ -267,8 +243,10 @@ technical: {
       title: "Honors & Awards",
       description: (
         <>
-          • Top 50 – National Youth Idea Contest (2026) <br/>
-          • 2nd Place – Rajshahi College Science Fest (2025) <br/>
+          • Finalist – [Government] National Level EESS Science Fest (2026) <br/>
+          • 1st Place – [Government] District Level Champion EESS Science Fest (2026) <br/>
+          • Finalist – National Youth Idea Contest (2026) <br/>
+          • 2nd Place – Rajshahi College National Science Fest (2025) <br/>
           • 5th Place – ICT Olympiad (2024) <br/>
           • 10th Place – English Quiz (2023)
         </>

@@ -68,11 +68,11 @@ const home: Home = {
         <strong className="ml-4">Integrated Eco-Friendly Smart Factory Model</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured Project
+          Pre-print Paper
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "https://doi.org/10.20944/preprints202602.2024.v2",
   },
   subline: (
     <>

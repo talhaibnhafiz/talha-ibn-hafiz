@@ -136,7 +136,6 @@ const about: About = {
         ],
       },
       {
-      {
         company: "Carbon Capture & Ink Production System",
         timeframe: "WINTER, 2024",
         role: "Project Lead",
@@ -186,9 +185,9 @@ Researched the environmental impact of reducing urban carbon emissions through l
           [Expected graduate student at Science Department].</>,
       },
       {
-        name: "Seroil Govt. High School [Jan,2016-May,2024]",
+        name: "Shiroil Govt. High School [Jan,2016-May,2024]",
         description:<> SSC: GPA 5.00/5.00
-          [Compeleted 10th Standard here.]
+          [Completed 10th Standard here.]
          </>,
       },
     ],
